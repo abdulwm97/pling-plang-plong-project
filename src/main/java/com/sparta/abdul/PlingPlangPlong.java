@@ -7,6 +7,10 @@ public class PlingPlangPlong {
         if(n%3 == 0){
             generatorResponse += "Pling";
         }
+
+        if(n%5 == 0){
+            generatorResponse += "Plang";
+        }
         return generatorResponse;
     }
 }
