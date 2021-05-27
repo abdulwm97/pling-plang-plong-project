@@ -1,3 +1,6 @@
+target/
+.idea/
+pling-plang-plong-project.iml
 # Compiled class file
 *.class
 
