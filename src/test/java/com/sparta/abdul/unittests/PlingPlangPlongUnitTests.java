@@ -1,12 +1,13 @@
-package com.sparta.abdul;
+package com.sparta.abdul.unittests;
 
+import com.sparta.abdul.PlingPlangPlong;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-public class UnitTests {
+public class PlingPlangPlongUnitTests {
     @Nested
     class PositiveParameters {
         @ParameterizedTest
