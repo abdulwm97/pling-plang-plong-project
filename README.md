@@ -1,13 +1,13 @@
 # pling-plang-plong-project
 
-##Tools
+## Tools
 - Intellij
 - JDK 11
 - Maven
 - Junit 5
 - Cucumber
 
-##General Practices
+## General Practices
 - TDD
 - BDD
 
@@ -29,6 +29,6 @@ Write a function that takes as its input a number (n) and converts it to a strin
 
 
 
-##SDET's Comments
+## SDET's Comments
 
 During this project nothing was assumed everything was taken to face value in accordance to the specification, so negative values were allowed as an input.
