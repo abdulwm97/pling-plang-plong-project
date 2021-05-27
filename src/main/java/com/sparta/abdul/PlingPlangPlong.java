@@ -15,6 +15,10 @@ public class PlingPlangPlong {
         if(n%7 == 0){
             generatorResponse += "Plong";
         }
+
+        if(n%3 != 0 && n%5 != 0 && n%7 != 0){
+            generatorResponse = Integer.toString(n);
+        }
         return generatorResponse;
     }
 }

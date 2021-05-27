@@ -55,4 +55,11 @@ public class UnitTests {
     void checkingForPlingPlangPlong(int n) {
         Assertions.assertEquals("PlingPlangPlong", PlingPlangPlong.generatePlingPlangPlong(n));
     }
+
+    @ParameterizedTest
+    @ValueSource(ints = {1, 2, 4, 8, 11})
+    @DisplayName("Checking if the number passed is returned if it isn't a factor of 3,5 or 7")
+    void checkingIfTheNumberPassedIsReturnedIfItIsnTAFactorOf35Or7(int n) {
+        Assertions.assertEquals(Integer.toString(n), PlingPlangPlong.generatePlingPlangPlong(n));
+    }
 }
